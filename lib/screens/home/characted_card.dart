@@ -18,6 +18,7 @@ class CharactedCard extends StatelessWidget {
             Image.asset('asset/img/vocation/${character.vocation.image}',width:80,),
             const SizedBox(width: 20),
             Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 StyledHeading(character.name),
                 StyledText(character.vocation.title),
